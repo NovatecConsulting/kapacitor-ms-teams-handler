@@ -1,0 +1,7 @@
+venv*
+.licence
+docker-compose.yml
+.idea
+jiraVolume
+*.zip
+*.log
