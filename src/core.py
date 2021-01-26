@@ -15,7 +15,6 @@ def message_to_teams(alert_json: dict, webhook: str) -> None:
         }
         logger.debug("Trigger Request")
         test = requests.post(url=webhook, proxies=proxy_dict, json=json_message)
-        print(test.headers)
     except ConnectionError as connection_error:
         logger.error('Connection Error: {}'.format(connection_error))
     except Exception as e:
