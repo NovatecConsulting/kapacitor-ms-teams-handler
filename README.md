@@ -36,3 +36,10 @@ This handler will be visible on the inspectIT Ocelot - Configuration Server UI, 
 
 ### Config
 The Log Path can be edited in the [configuration.py](configuration/configuration.py) file.
+
+### Testing
+The Script can be tested with the [example.json](tests/example_alert.json) file:
+```bash
+# root folder:
+python3 main.py "https://webhook-url" < tests/example_alert.json
+```
