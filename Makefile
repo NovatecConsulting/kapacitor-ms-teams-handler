@@ -6,5 +6,6 @@ bundle:
 		README.md \
 		main.py \
 		requirements.txt \
-		src/* \
-		configuration/* \
+		src/core.py \
+		configuration/configuration.py \
+		tests/* \
