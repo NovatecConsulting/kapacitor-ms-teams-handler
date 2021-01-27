@@ -5,3 +5,5 @@ docker-compose.yml
 jiraVolume
 *.zip
 *.log
+# ignore phyton byte code
+*.pyc
